@@ -1,0 +1,38 @@
+*{
+    background-color: black;
+    color: white;
+}
+#container{
+    width: 80%;
+    border: 1px solid white;
+    margin: 5% 10%;
+}
+#heading{
+    text-align: center;
+}
+#header{
+    display: flex;
+}
+#header>input{
+    flex: 3;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid white;
+}
+#header>button{
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid white;
+}
+#tab{
+    margin: 5px;
+}
+table{
+    width: 100%;
+    /* border: 1px solid white; */
+}
+td{
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
